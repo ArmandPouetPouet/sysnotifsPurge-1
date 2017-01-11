@@ -1,0 +1,127 @@
+{
+    "timestamp": 1484143606997,
+    "cluster_name": "212725358089:core-sysnotifs-prod",
+    "status": "green",
+    "indices": {
+        "count": 5,
+        "shards": {
+            "total": 42,
+            "primaries": 21,
+            "replication": 1.0,
+            "index": {
+                "shards": {
+                    "min": 2,
+                    "max": 10,
+                    "avg": 8.4
+                },
+                "primaries": {
+                    "min": 1,
+                    "max": 5,
+                    "avg": 4.2
+                },
+                "replication": {
+                    "min": 1.0,
+                    "max": 1.0,
+                    "avg": 1.0
+                }
+            }
+        },
+        "docs": {
+            "count": 24688751,
+            "deleted": 2
+        },
+        "store": {
+            "size_in_bytes": 73790830762,
+            "throttle_time_in_millis": 37728394
+        },
+        "fielddata": {
+            "memory_size_in_bytes": 666446936,
+            "evictions": 0
+        },
+        "filter_cache": {
+            "memory_size_in_bytes": 28792524,
+            "evictions": 1570502
+        },
+        "id_cache": {
+            "memory_size_in_bytes": 0
+        },
+        "completion": {
+            "size_in_bytes": 0
+        },
+        "segments": {
+            "count": 1004,
+            "memory_in_bytes": 201579952,
+            "index_writer_memory_in_bytes": 2302096,
+            "index_writer_max_memory_in_bytes": 336763280,
+            "version_map_memory_in_bytes": 22176,
+            "fixed_bit_set_memory_in_bytes": 0
+        },
+        "percolate": {
+            "total": 0,
+            "time_in_millis": 0,
+            "current": 0,
+            "memory_size_in_bytes": -1,
+            "memory_size": "-1b",
+            "queries": 0
+        }
+    },
+    "nodes": {
+        "count": {
+            "total": 2,
+            "master_only": 0,
+            "data_only": 0,
+            "master_data": 2,
+            "client": 0
+        },
+        "versions": [
+            "1.5.2"
+        ],
+        "os": {
+            "available_processors": 2,
+            "mem": {
+                "total_in_bytes": 7901110272
+            },
+            "cpu": [
+                {
+                    "mhz": 2500,
+                    "total_cores": 1,
+                    "total_sockets": 1,
+                    "cores_per_socket": 1,
+                    "cache_size_in_bytes": 25600,
+                    "count": 2
+                }
+            ]
+        },
+        "process": {
+            "cpu": {
+                "percent": 27
+            },
+            "open_file_descriptors": {
+                "min": 1242,
+                "max": 1271,
+                "avg": 1256
+            }
+        },
+        "jvm": {
+            "max_uptime_in_millis": 3165182181,
+            "mem": {
+                "heap_used_in_bytes": 2205936976,
+                "heap_max_in_bytes": 3203792896
+            },
+            "threads": 109
+        },
+        "fs": {
+            "total_in_bytes": 211110395904,
+            "free_in_bytes": 136870490112,
+            "available_in_bytes": 126099517440,
+            "disk_reads": 29766930,
+            "disk_writes": 58189646,
+            "disk_io_op": 87956576,
+            "disk_read_size_in_bytes": 811579086848,
+            "disk_write_size_in_bytes": 4984900284416,
+            "disk_io_size_in_bytes": 5796479371264,
+            "disk_queue": "0",
+            "disk_service_time": "2.3"
+        }
+    }
+}
